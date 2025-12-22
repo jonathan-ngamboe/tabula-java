@@ -2,4 +2,4 @@ jdk:
   - openjdk21
 install:
   - chmod +x mvnw
-  - ./mvnw clean install -DskipTests -Dmaven.javadoc.skip=true
+  - ./mvnw clean install -DskipTests -Dmaven.javadoc.skip=true -Djava.awt.headless=true
